@@ -1,0 +1,115 @@
+# SPDX-FileCopyrightText: 2026 Ortan Fields
+# SPDX-License-Identifier: MIT
+# Assisted-By: Claude Opus 4.7 (1M Context, 2026-05)
+
+# ============================================================
+# Secrets file
+# ============================================================
+secrets.env
+*.env
+
+# ============================================================
+# Rendered secrets (templates are committed, outputs are not)
+# Adjust the specific filenames once you've templated them
+# ============================================================
+# Example — uncomment/adjust for each templated file:
+# server.properties
+# plugins/DiscordBot/config.yml
+# plugins/SomePlugin/database.yml
+
+# ============================================================
+# Player data & moderation lists (PII: UUIDs, IPs, usernames)
+# ============================================================
+banned-ips.json
+banned-players.json
+ops.json
+whitelist.json
+usercache.json
+usernamecache.json
+
+# ============================================================
+# World data
+# ============================================================
+World/
+world/
+world_nether/
+world_the_end/
+# Catch any other dimension/world folders by convention
+DIM*/
+
+# ============================================================
+# Runtime state, logs, backups, crashes
+# ============================================================
+logs/
+backups/
+crash-reports/
+*.log
+*.log.gz
+minetweaker.log
+
+# ============================================================
+# GTNH+Crucible artifacts
+# ============================================================
+Crucible-*.jar
+Crucible-server.jar
+forge-*.jar
+minecraft_server.*.jar
+lwjgl3ify-forgePatches.jar
+libraries/
+eula.txt
+mods/**
+!mods/
+
+# ============================================================
+# GTNH+Crucible configs
+# ============================================================
+config/**
+!config/
+
+# ============================================================
+# GTNH+Crucible cruft
+# ============================================================
+changelog*.md
+updates.html
+startserver-*
+
+# ============================================================
+# Mod runtime data
+# ============================================================
+journeymap/
+visualprospecting/
+coretweaks/
+serverutilities/local/
+serverutilities/backups/
+serverutilities/client/
+blueprints/
+scripts/
+GregTech.lang
+
+# ============================================================
+# Per-plugin runtime data (NOT configs)
+# Most plugins create a data/ or database/ subfolder for state
+# ============================================================
+plugins/*/data/
+plugins/*/database/
+plugins/*/logs/
+plugins/*/backups/
+plugins/*/cache/
+plugins/*/*.db
+plugins/*/*.sqlite
+plugins/*/*.sqlite-journal
+plugins/*/playerdata/
+plugins/*/libs
+plugins/*/translations
+
+# ============================================================
+# OS / editor cruft
+# ============================================================
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+.idea/
+.vscode/
+
