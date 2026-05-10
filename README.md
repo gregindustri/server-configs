@@ -13,7 +13,7 @@ If you're here seeing this, you're too early, because you're before I've really 
 See [COPYRIGHT](./COPYRIGHT).
 
 ### For baseline configuration / third-party
-# TODO: need to go through and cover all baseline copyrights
+> TODO: need to go through and cover all baseline copyrights; excluding third-party data for right now
 
 ## Contributing / AI Usage
 
