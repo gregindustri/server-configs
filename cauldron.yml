@@ -1,0 +1,239 @@
+# This is the main configuration file for Cauldron.
+# 
+# If you need help with the configuration or have any questions related to Cauldron,
+# join us at the IRC or drop by our forums and leave a post.
+# 
+# IRC: #cauldron @ irc.esper.net ( http://webchat.esper.net/?channel=cauldron )
+# Forums: http://cauldron.minecraftforge.net/
+# Crucible note: aw, those links are dead, join our discord instead https://discord.gg/jwstj4d 
+# 
+# Setting: plugin-settings.allow-reload Default: false   # Allow plugins to be reloaded. WARNING - breaks with some mods. We *will not* support this!
+# Setting: plugin-settings.default.remap-plugin-file Default: false   # Remap the plugin file (dev)
+
+plugin-settings:
+  allow-reload: false
+  default:
+    remap-plugin-file: false
+    custom-class-loader: true
+    debug: false
+    remap-nms-v1_7_R4: true
+    remap-nms-v1_7_R3: true
+    remap-nms-v1_7_R1: true
+    remap-nms-v1_6_R3: true
+    remap-nms-v1_5_R3: true
+    remap-nms-pre: 'false'
+    remap-obc-v1_7_R4: true
+    remap-obc-v1_7_R3: true
+    remap-obc-v1_7_R1: true
+    remap-obc-v1_6_R3: true
+    remap-obc-v1_5_R3: true
+    remap-obc-pre: false
+    global-inheritance: true
+    plugin-inheritance: true
+    remap-reflect-field: true
+    remap-reflect-class: true
+    remap-allow-future: false
+    remap-guava: true
+    rfb-transformers: true
+    lw-transformers: false
+    plugin-transformers: true
+config-version: 1
+world-environment-settings:
+  normal:
+    keep-world-loaded: true
+  nether:
+    keep-world-loaded: true
+  the_end:
+    keep-world-loaded: false
+  endoftime:
+    keep-world-loaded: true
+  underdark:
+    keep-world-loaded: false
+  storage:
+    keep-world-loaded: false
+  pocketplane:
+    keep-world-loaded: true
+  outer:
+    keep-world-loaded: false
+  orbit:
+    keep-world-loaded: true
+  mothership:
+    keep-world-loaded: false
+  bedrock:
+    keep-world-loaded: false
+  twilightforest:
+    keep-world-loaded: false
+  dreamworld:
+    keep-world-loaded: false
+  torment:
+    keep-world-loaded: false
+  mirror:
+    keep-world-loaded: false
+  tceldrich:
+    keep-world-loaded: true
+  venusss:
+    keep-world-loaded: true
+  marsss:
+    keep-world-loaded: true
+  jupiterss:
+    keep-world-loaded: true
+  saturnss:
+    keep-world-loaded: true
+  uranusss:
+    keep-world-loaded: true
+  neptuness:
+    keep-world-loaded: true
+  spectre:
+    keep-world-loaded: true
+  mod:
+    keep-world-loaded: false
+  anubis:
+    keep-world-loaded: true
+    enabled: true
+  mehen:
+    keep-world-loaded: true
+    enabled: true
+  asteroids:
+    keep-world-loaded: true
+    enabled: true
+  barnardac:
+    keep-world-loaded: true
+    enabled: true
+  barnardae:
+    keep-world-loaded: true
+    enabled: true
+  barnardaf:
+    keep-world-loaded: true
+    enabled: true
+  acentauri:
+    keep-world-loaded: true
+    enabled: true
+  ceres:
+    keep-world-loaded: true
+    enabled: true
+  haumea:
+    keep-world-loaded: true
+    enabled: true
+  horus:
+    keep-world-loaded: true
+    enabled: true
+  jupiter:
+    keep-world-loaded: true
+    enabled: true
+  kuiper:
+    keep-world-loaded: true
+    enabled: true
+  makemake:
+    keep-world-loaded: true
+    enabled: true
+  mars:
+    keep-world-loaded: true
+    enabled: true
+  mercury:
+    keep-world-loaded: true
+    enabled: true
+  neptune:
+    keep-world-loaded: true
+    enabled: true
+  pluto:
+    keep-world-loaded: true
+    enabled: true
+  ross128b:
+    keep-world-loaded: true
+    enabled: true
+  saturn:
+    keep-world-loaded: true
+    enabled: true
+  tcetie:
+    keep-world-loaded: true
+    enabled: true
+  uranus:
+    keep-world-loaded: true
+    enabled: true
+  vegab:
+    keep-world-loaded: true
+    enabled: true
+  venus:
+    keep-world-loaded: true
+    enabled: true
+  callisto:
+    keep-world-loaded: true
+    enabled: true
+  deimos:
+    keep-world-loaded: true
+    enabled: true
+  enceladus:
+    keep-world-loaded: true
+    enabled: true
+  europa:
+    keep-world-loaded: true
+    enabled: true
+  ganymede:
+    keep-world-loaded: true
+    enabled: true
+  io:
+    keep-world-loaded: true
+    enabled: true
+  maahes:
+    keep-world-loaded: true
+    enabled: true
+  miranda:
+    keep-world-loaded: true
+    enabled: true
+  moon:
+    keep-world-loaded: true
+    enabled: true
+  neper:
+    keep-world-loaded: true
+    enabled: true
+  oberon:
+    keep-world-loaded: true
+    enabled: true
+  phobos:
+    keep-world-loaded: true
+    enabled: true
+  proteus:
+    keep-world-loaded: true
+    enabled: true
+  ross128ba:
+    keep-world-loaded: true
+    enabled: true
+  seth:
+    keep-world-loaded: true
+    enabled: true
+  titan:
+    keep-world-loaded: true
+    enabled: true
+  triton:
+    keep-world-loaded: true
+    enabled: true
+world-settings:
+  default:
+    entity-despawn-immediate: false
+    worldgen-Natura-BaseTreeWorldgen: true
+    worldgen-Roguelike-DungeonGenerator: true
+    worldgen-DraconicEvolution-DraconicWorldGenerator: true
+    worldgen-TConstruct-SlimeIslandGen: true
+    worldgen-lootgames-LootGamesWorldGen: true
+    worldgen-gregtech-WorldGeneratorSpace: true
+    worldgen-CoFHCore-WorldHandler: true
+    worldgen-harvestthenether-PamTreeGenerator: true
+    worldgen-Natura-BaseCloudWorldgen: true
+    worldgen-harvestcraft-PamGardenGenerator: true
+    worldgen-witchery-WitcheryWorldGenerator: true
+    worldgen-Forestry-WorldGenerator: true
+    worldgen-ToxicEverglades-WorldGenEvergladesBase: true
+    worldgen-gregtech-GTWorldgenerator: true
+    worldgen-etfuturum-EtFuturumWorldGenerator: true
+    worldgen-etfuturum-EtFuturumLateWorldGenerator: true
+    worldgen-harvestcraft-PamTreeGenerator: true
+    worldgen-harvestthenether-PamGardenGenerator: true
+    worldgen-appliedenergistics2-MeteoriteWorldGen: true
+    worldgen-Thaumcraft-ThaumcraftWorldGenerator: true
+    worldgen-Natura-BaseCropWorldgen: true
+    worldgen-MrTJPCoreMod-SimpleGenHandler$: true
+    worldgen-ExtraBees-ModuleGeneration: true
+    worldgen-Automagy-AutomagyWorldGenerator: true
+    worldgen-IC2-IC2: true
+    worldgen-chisel-GeneratorChisel: true
+    worldgen-TConstruct-TBaseWorldGenerator: true

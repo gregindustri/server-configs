@@ -1,0 +1,272 @@
+# This is the main configuration file for Entities aka Sushchestvos (in Russian).
+# 
+# If you need help with the configuration or have any questions related to Thermos,
+# join us at the IRC or drop by our forums and leave a post.
+# 
+# IRC: #cauldron @ irc.esper.net ( http://webchat.esper.net/?channel=cauldron )
+# Forums: http://cauldron.minecraftforge.net/
+# 
+# Setting: settings.skip-entity-ticks Default: true   # If enabled, allows the default entity tick skip feature when no players are near.
+# Setting: settings.prevent-invalid-entity-updates Default: true   # Used to determine if an entity should tick and if not the TE is added to a ban list. Note: This should help improve performance.
+# Setting: debug.enable-ent-can-update-warning Default: false   # Set true to detect which entities should not be ticking.
+
+settings:
+  skip-entity-ticks: true
+  prevent-invalid-entity-updates: true
+debug:
+  enable-ent-can-update-warning: false
+config-version: 1
+world-settings:
+  default:
+    net-minecraft-entity-passive-EntityWolf:
+      tick-no-players: false
+      never-ever-tick: false
+      tick-interval: 1
+    net-minecraft-entity-passive-EntityChicken:
+      tick-no-players: false
+      never-ever-tick: false
+      tick-interval: 1
+    net-minecraft-entity-item-EntityItem:
+      tick-no-players: false
+      never-ever-tick: false
+      tick-interval: 1
+    net-minecraft-entity-passive-EntityCow:
+      tick-no-players: false
+      never-ever-tick: false
+      tick-interval: 1
+    net-minecraft-entity-passive-EntitySheep:
+      tick-no-players: false
+      never-ever-tick: false
+      tick-interval: 1
+    toast-specialMobs-entity-creeper-EntityGravityCreeper:
+      tick-no-players: false
+      never-ever-tick: false
+      tick-interval: 1
+    toast-specialMobs-entity-zombie-EntityBrutishZombie:
+      tick-no-players: false
+      never-ever-tick: false
+      tick-interval: 1
+    toast-specialMobs-entity-skeleton-EntitySpitfireSkeleton:
+      tick-no-players: false
+      never-ever-tick: false
+      tick-interval: 1
+    crazypants-enderzoo-entity-EntityDireWolf:
+      tick-no-players: false
+      never-ever-tick: false
+      tick-interval: 1
+    toast-specialMobs-entity-creeper-EntityJumpingCreeper:
+      tick-no-players: false
+      never-ever-tick: false
+      tick-interval: 1
+    net-minecraft-entity-monster-EntityCreeper:
+      tick-no-players: false
+      never-ever-tick: false
+      tick-interval: 1
+    ganymedes01-etfuturum-entities-EntityZombieVillager:
+      tick-no-players: false
+      never-ever-tick: false
+      tick-interval: 1
+    toast-specialMobs-entity-zombie-EntityPlagueZombie:
+      tick-no-players: false
+      never-ever-tick: false
+      tick-interval: 1
+    toast-specialMobs-entity-creeper-EntityDirtCreeper:
+      tick-no-players: false
+      never-ever-tick: false
+      tick-interval: 1
+    toast-specialMobs-entity-creeper-EntityFireCreeper:
+      tick-no-players: false
+      never-ever-tick: false
+      tick-interval: 1
+    toast-specialMobs-entity-creeper-EntityGravelCreeper:
+      tick-no-players: false
+      never-ever-tick: false
+      tick-interval: 1
+    net-minecraft-entity-monster-EntityZombie:
+      tick-no-players: false
+      never-ever-tick: false
+      tick-interval: 1
+    net-minecraft-entity-passive-EntityPig:
+      tick-no-players: false
+      never-ever-tick: false
+      tick-interval: 1
+    toast-specialMobs-entity-EntityLavaMonster:
+      tick-no-players: false
+      never-ever-tick: false
+      tick-interval: 1
+    crazypants-enderzoo-entity-EntityConcussionCreeper:
+      tick-no-players: false
+      never-ever-tick: false
+      tick-interval: 1
+    net-minecraft-entity-passive-EntityBat:
+      tick-no-players: false
+      never-ever-tick: false
+      tick-interval: 1
+    toast-specialMobs-entity-creeper-EntityDeathCreeper:
+      tick-no-players: false
+      never-ever-tick: false
+      tick-interval: 1
+    ganymedes01-etfuturum-entities-EntityRabbit:
+      tick-no-players: false
+      never-ever-tick: false
+      tick-interval: 1
+    com-emoniph-witchery-entity-EntityGoblin:
+      tick-no-players: false
+      never-ever-tick: false
+      tick-interval: 1
+    net-minecraft-entity-player-EntityPlayerMP:
+      tick-no-players: false
+      never-ever-tick: false
+      tick-interval: 1
+    toast-specialMobs-entity-creeper-EntityDarkCreeper:
+      tick-no-players: false
+      never-ever-tick: false
+      tick-interval: 1
+    net-minecraft-entity-monster-EntitySkeleton:
+      tick-no-players: false
+      never-ever-tick: false
+      tick-interval: 1
+    toast-specialMobs-entity-zombie-EntityGiantZombie:
+      tick-no-players: false
+      never-ever-tick: false
+      tick-interval: 1
+    toast-specialMobs-entity-creeper-EntityEnderCreeper:
+      tick-no-players: false
+      never-ever-tick: false
+      tick-interval: 1
+    toast-specialMobs-entity-creeper-EntitySplittingCreeper:
+      tick-no-players: false
+      never-ever-tick: false
+      tick-interval: 1
+    toast-specialMobs-entity-zombie-EntityFishingZombie:
+      tick-no-players: false
+      never-ever-tick: false
+      tick-interval: 1
+    toast-specialMobs-entity-skeleton-EntityFireSkeleton:
+      tick-no-players: false
+      never-ever-tick: false
+      tick-interval: 1
+    toast-specialMobs-entity-skeleton-EntityGatlingSkeleton:
+      tick-no-players: false
+      never-ever-tick: false
+      tick-interval: 1
+    net-minecraft-entity-monster-EntitySpider:
+      tick-no-players: false
+      never-ever-tick: false
+      tick-interval: 1
+    toast-specialMobs-entity-spider-EntityGhostSpider:
+      tick-no-players: false
+      never-ever-tick: false
+      tick-interval: 1
+    toast-specialMobs-entity-skeleton-EntityGiantSkeleton:
+      tick-no-players: false
+      never-ever-tick: false
+      tick-interval: 1
+    toast-specialMobs-entity-skeleton-EntitySniperSkeleton:
+      tick-no-players: false
+      never-ever-tick: false
+      tick-interval: 1
+    toast-specialMobs-entity-spider-EntityPaleSpider:
+      tick-no-players: false
+      never-ever-tick: false
+      tick-interval: 1
+    net-minecraft-entity-monster-EntityWitch:
+      tick-no-players: false
+      never-ever-tick: false
+      tick-interval: 1
+    toast-specialMobs-entity-witch-EntityShadowsWitch:
+      tick-no-players: false
+      never-ever-tick: false
+      tick-interval: 1
+    toast-specialMobs-entity-creeper-EntityLightningCreeper:
+      tick-no-players: false
+      never-ever-tick: false
+      tick-interval: 1
+    toast-specialMobs-entity-creeper-EntityArmorCreeper:
+      tick-no-players: false
+      never-ever-tick: false
+      tick-interval: 1
+    toast-specialMobs-entity-spider-EntitySmallSpider:
+      tick-no-players: false
+      never-ever-tick: false
+      tick-interval: 1
+    toast-specialMobs-entity-skeleton-EntityPoisonSkeleton:
+      tick-no-players: false
+      never-ever-tick: false
+      tick-interval: 1
+    toast-specialMobs-entity-spider-EntityDesertSpider:
+      tick-no-players: false
+      never-ever-tick: false
+      tick-interval: 1
+    toast-specialMobs-entity-creeper-EntityMiniCreeper:
+      tick-no-players: false
+      never-ever-tick: false
+      tick-interval: 1
+    toast-specialMobs-entity-skeleton-EntityNinjaSkeleton:
+      tick-no-players: false
+      never-ever-tick: false
+      tick-interval: 1
+    toast-specialMobs-entity-skeleton-EntityBrutishSkeleton:
+      tick-no-players: false
+      never-ever-tick: false
+      tick-interval: 1
+    toast-specialMobs-entity-zombie-EntityFireZombie:
+      tick-no-players: false
+      never-ever-tick: false
+      tick-interval: 1
+    chylex-hee-entity-mob-EntityMobEnderman:
+      tick-no-players: false
+      never-ever-tick: false
+      tick-interval: 1
+    toast-specialMobs-entity-enderman-EntityCursedEnderman:
+      tick-no-players: false
+      never-ever-tick: false
+      tick-interval: 1
+    toast-specialMobs-entity-witch-EntityDominationWitch:
+      tick-no-players: false
+      never-ever-tick: false
+      tick-interval: 1
+    toast-specialMobs-entity-creeper-EntityDoomCreeper:
+      tick-no-players: false
+      never-ever-tick: false
+      tick-interval: 1
+    toast-specialMobs-entity-creeper-EntityDrowningCreeper:
+      tick-no-players: false
+      never-ever-tick: false
+      tick-interval: 1
+    toast-specialMobs-entity-spider-EntityWebSpider:
+      tick-no-players: false
+      never-ever-tick: false
+      tick-interval: 1
+    toast-specialMobs-entity-spider-EntityPoisonSpider:
+      tick-no-players: false
+      never-ever-tick: false
+      tick-interval: 1
+    crazypants-enderzoo-entity-EntityWitherWitch:
+      tick-no-players: false
+      never-ever-tick: false
+      tick-interval: 1
+    crazypants-enderzoo-entity-EntityWitherCat:
+      tick-no-players: false
+      never-ever-tick: false
+      tick-interval: 1
+    toast-specialMobs-entity-enderman-EntityBlindingEnderman:
+      tick-no-players: false
+      never-ever-tick: false
+      tick-interval: 1
+    toast-specialMobs-entity-spider-EntityToughSpider:
+      tick-no-players: false
+      never-ever-tick: false
+      tick-interval: 1
+    toast-specialMobs-entity-spider-EntityWitchSpider:
+      tick-no-players: false
+      never-ever-tick: false
+      tick-interval: 1
+    net-minecraft-entity-item-EntityFallingBlock:
+      tick-no-players: false
+      never-ever-tick: false
+      tick-interval: 1
+    net-minecraft-entity-item-EntityFireworkRocket:
+      tick-no-players: false
+      never-ever-tick: false
+      tick-interval: 1
