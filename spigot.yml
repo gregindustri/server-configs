@@ -17,14 +17,14 @@ commands:
 settings:
   bungeecord: false
   timeout-time: 90
-  restart-on-crash: true
+  restart-on-crash: false
   restart-script: ./start.sh
   netty-threads: -1
   player-shuffle: 0
   fullMatchRate: 10
 messages:
   restart: Server is restarting
-  whitelist: You are not whitelisted on this server!
+  whitelist: "To get whitelisted, visit: gregindustri.moe"
   unknown-command: Unknown command. Type "/help" for help.
   server-full: The server is full!
   outdated-client: Outdated client! Please use {}

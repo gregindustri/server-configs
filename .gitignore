@@ -63,9 +63,8 @@ mods/**
 # ============================================================
 # GTNH+Crucible configs
 # ============================================================
-config/**
-!config/
-!config/GregTech/Pollution.cfg
+/config
+!/config/GregTech/Pollution.cfg
 
 # ============================================================
 # GTNH+Crucible cruft
